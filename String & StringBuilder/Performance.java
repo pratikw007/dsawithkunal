@@ -1,9 +1,11 @@
 public class Performance {
     public static void main(String[] args) {
         String series = "";
-        for (int i = 0; i < args.length; i++) {
+        for (int i = 0; i < 26; i++) {
             char ch = (char)('a'+i);
-            System.out.println(ch);
+            // System.out.println(ch);
+            series += ch;
+            System.out.print(ch);//abcdefghijklmnopqrstuuwxyz
             
         }
     }

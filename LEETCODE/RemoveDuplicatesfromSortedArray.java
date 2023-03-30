@@ -1,5 +1,6 @@
 import java.util.*;
 public class RemoveDuplicatesfromSortedArray {
+    // https://youtu.be/JHzdGAh_6mk
     public static void main(String[] args) {
         Scanner sc = new Scanner(System);
         int nums = sc.nextInt();

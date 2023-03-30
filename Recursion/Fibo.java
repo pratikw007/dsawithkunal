@@ -6,12 +6,13 @@ public class Fibo {
         if (n < 2) {
             return n;
         }
-
+// this is not tail recucrrsion because fibo(n-1) return some value and 
+// fibo(n-2) return some value 
         return fibo(n - 1) + fibo(n - 2);
     }
-
     public static void main(String[] args) {
-        System.out.println(fibo(4));
+        // int n = 5;
+        int ans = fibo(5);
+        System.out.println(ans);
     }
-
 }
